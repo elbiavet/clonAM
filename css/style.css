@@ -1,0 +1,544 @@
+ *{
+    box-sizing: border-box;
+ }
+
+ body{
+    color:#9c9b9b;
+ }
+ 
+ nav{
+    background-color: #f0f0f0;
+ }
+
+ nav div{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+ }
+
+ i{
+    margin-right:15px;
+    font-size:1.5em;
+}
+
+.container{
+    min-width: 70vw;
+}
+
+ .fa-bars{
+    font-size: 2.8em;
+    color:grey;
+    
+ }
+
+ #hero h1{
+    font-weight: 100;
+    font-size: 5em;
+    letter-spacing: 0.3em;
+ }
+
+ #hero{
+    min-height: 120vh;
+    background-image: url("/img/backgrounds/bg-header.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #5c5a5a;
+ }
+
+ h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+ }
+
+h2 span{ 
+    text-transform: lowercase;
+    font-family: 'Kurale', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.linea{
+    border-bottom: 4px solid #b55c5c;
+    width: 25px;
+    margin: 10px 0;
+}
+
+div header p{
+    font-style: italic;
+    font-family: 'Kurale', serif;
+    font-size:1.3em;
+}
+
+h3{
+    font-style: italic;
+    font-family: 'Kurale', serif;
+    font-weight: 300;
+    font-size: 1.4em;
+    letter-spacing: 0.07em;
+}
+
+div header p{
+    margin-top:40px;
+}
+
+/* Proceso creativo */
+.letOscura{
+    color: rgb(81, 80, 80);
+}
+
+.secProceso{
+    margin: 50px auto;
+}
+
+.procesoCreativo{
+    margin: 120px 50px;
+    border-bottom: 1px solid #e7e7e7;
+    line-height: 2em;
+}
+
+.procesoCreativo .col-lg-8 > p{
+    margin-top:100px;
+    font-size:1.05em;
+}
+
+.procesoCreativo .col-lg-8 img{
+    float: right;
+}
+
+/* Pasos */
+.numeros{
+    font-family: 'Montserrat', sans-serif;
+    font-size:12em;
+    font-weight: bold;
+    color: #edefea;
+    position: absolute;
+    top:-80px;
+    left:10px;
+}
+
+.pasos article p{
+    line-height: 2.2em;
+}
+
+.pasos .col-lg-3 article{
+    position: relative;
+    top:100px;
+    left:50px;
+    width:10vw;
+}
+
+.boton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    letter-spacing: 0.2em;
+    
+    padding: 10px 30px;
+    display: inline-block;
+    border: 1px solid #bababa;
+}
+
+.oscuro{
+    background-color: black;
+    color: white;
+    border: 1px solid #555555;
+}
+
+.claro{
+    background-color: white;
+    color: black;
+    border: 1px solid #bababa;
+}
+
+.pasos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secProceso a{
+    margin: 250px 40% 150px 40%;
+}
+
+/* Logros */
+.logros{
+    background-image: url("/img/backgrounds/bg-skills.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    min-height: 45vh;
+    display: flex;
+}
+
+.logros .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logros .container .row{
+    justify-content: space-around;
+}
+
+.cajaLogros{
+    border: 1px solid white;
+    padding: 20px 10px; 
+    max-width:20%;
+
+    background-color: rgba(255, 255, 255, 0.086);
+
+    color:white;
+    font-size: 1.8em;  
+    text-align: center;  
+}
+
+.cajaLogros i{
+    font-size: 2em;
+    margin:0px auto 20px auto;
+}
+
+.cajaLogros h3{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.cajaLogros p{
+    font-family: 'Kurale', serif;
+    font-size: 0.9em;
+    font-style: italic;
+    text-transform: lowercase;
+}   
+
+
+/* Vocacional */
+.vocacional{
+    margin-top: 120px;
+}
+
+.vocacional img{
+    float:right;
+} 
+
+.vocacional p{
+    margin-top: 40px;
+}
+
+.secConoceMas{
+    display:flex;
+    align-items: start;
+    margin: 100px 0 120px 0;
+}
+
+.secConoceMas article{
+    margin: 0 0 100px 20px;
+    font-size: 1.1em;
+    line-height: 1.8em;
+    
+}
+.secConoceMas h5{
+    font-family: 'Kurale', serif;
+    font-style: italic;
+    font-size: 1.3em;    
+}
+
+.claimCruz{
+    background-image: url("/img/graphic/contain-cross.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    min-height: 200px;
+
+    padding: 60px 40px;
+
+    font-size: 1.5em;
+    font-family: 'Kurale', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.secConoceMas a{
+    margin-top: 40px;
+    float:right;
+}
+
+
+/* Nuestro trailer */
+
+#video {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,0) url("../img/backgrounds/bg-video.jpg") no-repeat fixed center top / cover;
+    min-height: 50vh;
+}
+
+#video .roller{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background: url("../img/backgrounds/looping-blanco.png") no-repeat bottom right / contain;
+}
+
+#video .col-lg-6{
+    font-size: 2em;
+    margin-top: 150px;
+}
+
+/* ADVERTENCIA: en esta sección para que el button no tenga fondo blanco se podría haber creado una regla similar a esta: 
+        #video button {
+            border: none;
+            background: transparent;
+        } */
+
+        /* para quitar el fondo del button también serviría background: none; */
+
+/* Proyectos recientes */
+
+.secProyectos{
+    background-color: #f0eeee;
+    background-image: url("/img/backgrounds/looping-blanco.png");
+    border: 1px solid #f0eeee;
+}
+
+.proyectos{
+    text-align: center;
+    line-height: 2em;
+    margin: 120px auto;
+}
+
+.lineaGris{
+    border-bottom: 3px solid lightgrey;
+    width: 50px;
+    margin: 50px auto;
+}
+
+.proyectos img{
+    width: 90%;
+    height: auto;
+}
+
+.proyectos header span{
+    text-transform: none;
+}
+
+.proyectos p span{
+    font-family: "Kurale", serif;
+    font-style: italic;
+    font-size:1.1em;
+}
+
+.proyectos .row .col-md-4{
+    padding-top: 40px ;
+}
+
+.seccionConoceMas .boton{
+   margin-top:200px;
+}
+
+/* Servicios integrados */
+.servicios{
+    margin: 120px auto 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios .row{
+    margin-top: 100px;
+}
+
+.servicios article i{
+    color:#9c5e5e
+}
+
+.servicios article{
+    margin: 0 0 40px 35px;
+    line-height: 2em;
+}
+
+.servicios h5{
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size:1.5em;
+}
+
+.servicios span{
+    font-family: 'Kurale', serif;
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.servicios img{
+    margin: 50px auto;
+    opacity: 30%;
+}
+
+
+/* Contacto */
+.fondoContacto{
+    background-color: #2e2e2e;
+    min-height: 80vh;
+    color:white;
+    padding: 40px 0;
+}
+
+.fondoContacto .container{
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.fondoContacto form{
+    margin-top: 120px;
+}
+
+.fondoContacto .col-sm-5 input, textarea{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    text-transform: uppercase;
+    /* ADVERTENCIA: podrías haber aprovechado esta regla para indicar color:#FFF; ya que el texto de los input y los textarea no se ve bien con el fondo oscuro */
+}
+
+.fondoContacto .col-sm-5 input{
+    padding:0 20px 20px 20px;
+}
+
+textarea{
+    padding:0 0 150px 20px;
+}
+
+.fondoContacto .boton{
+    margin-top: 40px;
+    float: right; 
+}
+
+/* Footer */
+
+footer{
+    background-image: url("/img/backgrounds/bg-atracciones.png");
+    background-position: center 100%;
+    background-size: cover;
+    min-height: 70vh;
+    padding: 150px 0 120px 0;
+}
+
+.foot1, .foot2, .foot3, .foot4{
+    padding: 10px;
+    text-align: center;
+}
+
+footer h4{
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#bababa;
+}
+
+footer ul{
+    padding-left: 20px;
+}
+
+.foot1{
+    line-height: 2em;
+}
+
+.foot2 a{
+    text-decoration: none;
+    color:#bababa;
+}
+
+.foot3 a{
+    color: black;
+}
+
+.foot4 ul{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.foot4 figure{
+    margin:5px;
+}
+
+.copy{
+margin-top: 10px;
+text-align: center;
+font-size: 1.1em;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 500px) {
+    .pasos{
+        grid-template-columns: 1fr !important;
+    }
+    .pasos .col-lg-3 article p{
+        width:90vw !important;  
+    }
+}
+
+@media only screen and (max-width: 997px) {
+    .procesoCreativo .col-lg-4 img{
+        display:none;
+    }
+
+    .pasos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .numeros{
+        display:none;
+    }
+  
+    .pasos .col-lg-3 article p{
+        width:30vw;  
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .pasos{
+        width: 95%;
+    }
+    .numeros{
+        font-size: 11em;
+    }
+
+    .pasos .col-lg-3 article{
+        width:15vw; 
+    }
+}
+
+
